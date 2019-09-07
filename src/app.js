@@ -1,6 +1,6 @@
 console.log('App.js is running!');
 
-var app = {
+const app = {
   title: 'Indecision App',
   subtitle: 'Put your life in the hands of a computer',
   options: ['Karim', 'Baruch']
@@ -20,7 +20,7 @@ var template = (
   </div>
 );
 
-var user = {
+const user = {
   name: 'Karim',
   age: 18,
   location: 'Tel-Aviv'
